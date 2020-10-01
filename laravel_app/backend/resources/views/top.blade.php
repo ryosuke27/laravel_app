@@ -3,16 +3,10 @@
 <head>
 </head>
 <body>
-<header>
-	<h1>Visualize Manpower</h1>
-	<nav>
-		<a href="/">トップ</a>
-	</nav>
-</header>
+@include("parts.header")
 <main>
 	<h1>Visualize Manpower</h1>
 </main>
-<footer>
-</footer>
+@include("parts.footer")
 </body>
 </html>
