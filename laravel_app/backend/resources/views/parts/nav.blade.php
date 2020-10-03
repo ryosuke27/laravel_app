@@ -1,3 +1,3 @@
 <nav>
-	<a href="/">トップ</a>
+	<a href="{{ url('/sub') }}">sub</a>
 </nav>
