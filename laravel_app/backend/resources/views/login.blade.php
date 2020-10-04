@@ -8,7 +8,7 @@
 </div>
 @endif
 
-<form method="post" action="{{ url('login') }}">
+<form method="post" action="{{ url('') }}">
 @csrf 
 
 <div>
