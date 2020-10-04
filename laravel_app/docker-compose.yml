@@ -5,9 +5,11 @@ volumes:
 services:
   app:
     build: ./infra/docker/php
+    image: node:12.18.4
     volumes:
       - php-fpm-socket:/var/run/php-fpm
       - ./backend:/work/backend
+    working_dir: /work/backend
 
   web:
     build: ./infra/docker/nginx
